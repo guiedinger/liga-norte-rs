@@ -14,9 +14,8 @@ export default () => (
                 icon={<img className="event-icon" src={Icon} alt="Icon"/>}>
                 <h3 className="vertical-timeline-element-title">Liga Norte RS</h3>
                 <h4 className="vertical-timeline-element-subtitle">Etapa Lagoa Vermelha</h4>
-                <p>Localização: </p>
-                <p>Horário: </p>
                 <Button color={'red'} >Ver Localização</Button>
+                <p>Horário: </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
