@@ -1,6 +1,6 @@
 import React from 'react'
 import './button.css'
-import mapMarker from './map-marker.svg'
+import mapMarker from './../../assets/map-marker.svg'
 
 export default (props) => (
     <button  className={'btn ' + props.color}>
