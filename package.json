@@ -1,13 +1,14 @@
 {
   "name": "liganorters",
   "description": "",
-  "homepage": "https://stackblitz.com/edit/liganorters",
+  "repository": "https://github.com/guiedinger/liga-norte-rs",
   "dependencies": {
     "react": "^16.5.2",
+    "react-burger-menu": "2.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "^1.1.5",
     "react-router-dom": "4.3.1",
-    "react-burger-menu": "2.5.2"
+    "react-scripts": "^1.1.5",
+    "react-vertical-timeline-component": "^2.2.0"
   },
   "version": "0.1.0",
   "private": true,

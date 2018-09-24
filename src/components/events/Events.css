@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleevent{
+    margin: 20px 0px;
+    text-align: center;
+    color: #424242;
+}
+.vertical-timeline-element-date {
+    color: white;
+}
+
+.vertical-timeline-element-icon {
+    border-radius: 23% !important;
+    box-shadow: 0 0 0 0px white !important;
+}
