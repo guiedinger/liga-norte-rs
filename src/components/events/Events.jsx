@@ -6,7 +6,7 @@ import Icon from './../../assets/ping-pong.svg'
 import Button from './../button/Button'
 
 export default () => (
-    <div style={{backgroundColor: '#eeeeee'}}>
+    <div style={{backgroundColor: '#b3e5fc'}}>
         <h1 className="titleevent">Eventos</h1>
         <VerticalTimeline>
             <VerticalTimelineElement 
@@ -20,7 +20,6 @@ export default () => (
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="2011 - present"
-                iconStyle={{ background: '#424242', color: '#fff' }}
                 icon={<img className="event-icon" src={Icon} alt="Icon"/>}
             >
                 <h3 className="vertical-timeline-element-title">Creative Director</h3>

@@ -3,9 +3,9 @@
 }
 
 .titleevent{
-    margin: 20px 0px;
     text-align: center;
     color: #424242;
+    margin-top: 2em;
 }
 .vertical-timeline-element-date {
     color: white;
