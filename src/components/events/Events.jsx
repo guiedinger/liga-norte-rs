@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import Icon from './../../assets/ping-pong.svg'
 import Button from './../button/Button'
 
-export default () => (
+export default (props) => (
     <div style={{backgroundColor: '#b3e5fc'}}>
         <h1 className="titleevent">Eventos</h1>
         <VerticalTimeline>
