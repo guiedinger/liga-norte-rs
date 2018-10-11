@@ -5,6 +5,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import Icon from '@material-ui/core/Icon';
 
 export default (props) => (
     <Paper >
@@ -20,6 +21,7 @@ export default (props) => (
             </TableHead>
             <TableBody>
                 {props.data.map(row => {
+                    const dif = row.RatingAtual - row.RatingAnterior;
                     return (
                         <TableRow key={row.ID}>
                             <TableCell component="th" scope="row">
@@ -28,7 +30,8 @@ export default (props) => (
                             <TableCell >{row.NOME}</TableCell>
                             <TableCell numeric>{row.RatingAnterior}</TableCell>
                             <TableCell numeric>{row.RatingAtual}</TableCell>
-                            <TableCell numeric>{row.RatingAtual - row.RatingAnterior}</TableCell>
+                            <TableCell numeric>{dif} 
+                            <Icon className={dif >= 0 ? "green" : "red"}>{dif >= 0 ? "arrow_upward" : "arrow_downward"}</Icon></TableCell>
                         </TableRow>
                     );
                 })}

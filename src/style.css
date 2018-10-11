@@ -21,6 +21,7 @@ NavBar{
   justify-content: center;
   background-color: #f6f6f6;
   flex-flow: column wrap;
+  width: 100%;
 }
 
 @media (max-width: 1024px){

@@ -7,7 +7,7 @@ import news from './services/notices'
 import ratings from './services/rating';
 import NavBar from './components/navbar/Navbar'
 import Events from './components/events/Events'
-import Rating from './components/table/table'
+import Rating from './components/rating/Rating'
 import './style.css'
 
 

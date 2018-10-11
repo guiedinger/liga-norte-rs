@@ -1,0 +1,18 @@
+.conten {
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    width: 60%;
+  margin: 0px auto;
+  }
+.ratingTitle {
+    align-self: center;
+    margin: 30px 0px;
+    color: #424242;
+}
+.red {
+    color:red;
+}
+.green {
+    color: green;
+}
